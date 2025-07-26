@@ -20,7 +20,7 @@ Les raccourcis suivants permettent de modifier le rétroéclairage RGB du clavie
 
 Les raccourcis suivants permettent de lancer des applications ou sont des contrôles média.
 
-- Fn + Win (gauche) --> Verrouille/déverrouille la touche Windows.
+- Fn + Win (gauche) --> Verrouille/déverrouille la touche Windows
 - Fn + F1 --> Ouvre le lecteur média par défaut
 - Fn + F2 --> Réduit le volume du son
 - Fn + F3 --> Augment le volume du son
