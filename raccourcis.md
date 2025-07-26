@@ -38,3 +38,5 @@ Avec le firmware QMK uniquement :
 - Fn + Echap : Réinitialise le clavier (rebranchez le clavier pour le redémarrer)
 
 ## Dark Mage
+
+Les raccourcis du clavier sont listés sur la page produit : https://designedby.gg/product/dark-mage-edition-qmk/
