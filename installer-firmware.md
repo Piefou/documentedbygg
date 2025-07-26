@@ -21,16 +21,8 @@ Plusieurs manipulations sont possibles pour identifier le firmware installé.
 
 ## Installer le firmware d'origine
 
-### Préparer les fichiers nécessaires
-
-### Procédure d'installation
-
-### Configurer le clavier avec le driver
+Suivez la procédure indiquée sur la page suivante : TODO
 
 ## Installer le firmware QMK
 
-### Préparer les fichiers nécessaires
-
-### Procédure d'installation
-
-### Configurer QMK avec VIA
+Suivez la procédure indiquée sur la page suivante : [Installer QMK](https://github.com/Piefou/documentedbygg/blob/main/installer-firmware-qmk.md)
