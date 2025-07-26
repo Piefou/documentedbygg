@@ -12,7 +12,6 @@ Les raccourcis suivants permettent de modifier le rétroéclairage RGB du clavie
 - Fn + Suppr --> Alterne entre les modes "Pulsations", "Nuages" et "Vortex"
 - Fn + Fin --> Alterne entre les modes "Mosaïques", "Scintillement", "Cascade"
 - Fn + PgSv --> Alterne entre les modes "Radiation", "Balayage", "Synchronisation vitesse de frappe"
-
 - Fn + flèche haut --> Augmente la luminosité du RGB
 - Fn + flèche bas --> Réduit la luminosité du RGB
 - Fn + flèche gauche --> Pour les modes compatibles, permet de modifier la direction de l'effet (ex : En mode Pulsation, alterne entre le défilement de gauche à droite ou de droite à gauche)
