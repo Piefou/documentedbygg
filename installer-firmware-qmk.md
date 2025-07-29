@@ -50,7 +50,7 @@ L'outil de flash va installer le nouveau firmware. Ne touchez absolument pas le 
 
 Le clavier redémarre de lui-même après l'installation.
 
-### Si votre clavier utilise le firmware d'origine
+### Si votre clavier utilise le firmware d'origine "Evision"
 
 Lancez l'outil de flash, et sélectionnez le type de puce "SN32F24x".
 Dans la liste déroulante, le clavier doit être indiqué. Cliquez sur le bouton "Refresh" si nécessaire.
