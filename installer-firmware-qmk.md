@@ -34,7 +34,7 @@ Débranchez tout autre clavier "custom" de votre ordinateur.
 Attention !
 Une mauvaise exécution de la procédure peut rendre inopérant votre clavier. Lisez bien une première fois l'intégralité des manipulations avant de vous lancer, et ne deviez pas des instructions. Si vous avez un doute, n'hésitez pas à demander sur le Discord.
 
-Le début de la procédure dépend du firmware déjà installé sur le clavier. Si vous avez un doute sur le firmware installé, consultez la page (/installer-firmware)[/installer-firmware]
+Le début de la procédure dépend du firmware déjà installé sur le clavier. Si vous avez un doute sur le firmware installé, consultez la page (/installer-firmware)[installer-firmware]
 
 ### Si votre clavier utilise déjà un firmware QMK
 
