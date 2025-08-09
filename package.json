@@ -1,0 +1,24 @@
+{
+  "name": "documentedbygg",
+  "version": "1.0.0",
+  "description": "Community-sourced doucmentation for DesignedByGG products",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piefou/documentedbygg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Piefou/documentedbygg/issues"
+  },
+  "homepage": "https://github.com/Piefou/documentedbygg#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
