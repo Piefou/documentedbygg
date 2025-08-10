@@ -4,8 +4,11 @@
   "description": "Community-sourced doucmentation for DesignedByGG products",
   "main": "index.js",
   "type": "module",
+  "node": "24",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
