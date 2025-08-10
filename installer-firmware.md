@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 # Installer ou réinstaller le firmware
 
 Cette documentation est valide pour les modèles suivants :
@@ -25,4 +29,4 @@ Suivez la procédure indiquée sur la page suivante : TODO
 
 ## Installer le firmware QMK
 
-Suivez la procédure indiquée sur la page suivante : [Installer QMK](https://github.com/Piefou/documentedbygg/blob/main/installer-firmware-qmk.md)
+Suivez la procédure indiquée sur la page suivante : [Installer QMK](/installer-firmware-qmk)

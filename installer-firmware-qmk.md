@@ -1,3 +1,7 @@
+---
+layout: base
+---
+
 # Installer le firmware QMK
 
 Cette documentation est valide pour les modèles suivants :
