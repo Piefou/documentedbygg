@@ -1,0 +1,69 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/github-markdown.css">
+<style>
+	.markdown-body {
+		box-sizing: border-box;
+		min-width: 200px;
+		max-width: 980px;
+		margin: 0 auto;
+		padding: 45px;
+	}
+<p>@media (max-width: 767px) {
+.markdown-body {
+padding: 15px;
+}
+}
+</style></p>
+<article class="markdown-body">
+    <h1>Installer le firmware QMK</h1>
+<p>Cette documentation est valide pour les modèles suivants :</p>
+<ul>
+<li>Ironclad V3 (page produit : https://designedby.gg/product/ironclad-v3/)</li>
+<li>Berserker (page produit : https://designedby.gg/product/berserker/)</li>
+<li>Red Blade (page produit : https://designedby.gg/product/red-blade-01/)</li>
+<li>Dark Mage (page produit : https://designedby.gg/product/dark-mage-edition-qmk/)</li>
+</ul>
+<h2>Préparer les fichiers nécessaires</h2>
+<p>Pour installer le firmware QMK, vous aurez besoin de plusieurs fichiers :</p>
+<ul>
+<li>L'outil de flash qui va appliquer le nouveau firmware</li>
+<li>Le fichier binaire du firmware à installer</li>
+<li>Le fichier JSON à charger dans VIA</li>
+</ul>
+<p>L'outil de flash est disponible sur la page Github suivante : https://github.com/SonixQMK/sonix-flasher/releases
+Pour la dernière release, récupérez l'archive correspondant à votre OS :</p>
+<ul>
+<li>flasher-win.zip pour Windows</li>
+<li>flasher-mac.dmg pour MacOS</li>
+<li>flasher-linux.tar.xz pour une distribution Linux</li>
+</ul>
+<p>Vous y trouverez l'outil de flash sous la forme d'un exécutable dans le dossier &quot;Sonix Keyboard Flasher&quot; de l'archive.</p>
+<p>Les fichiers supplémentaires dépendent de votre clavier, et sont rassemblés dans les archives suivantes :</p>
+<ul>
+<li>Dark Mage : <a href="downloads/darkmage-qmk-20250729-caps-lock.zip">Lien</a></li>
+</ul>
+<p>Décompressez également cette archive, qui contient un fichier BIN et un fichier JSON.</p>
+<p>Débranchez tout autre clavier &quot;custom&quot; de votre ordinateur.</p>
+<h2>Procédure d'installation</h2>
+<p>Attention !
+Une mauvaise exécution de la procédure peut rendre inopérant votre clavier. Lisez bien une première fois l'intégralité des manipulations avant de vous lancer, et ne deviez pas des instructions. Si vous avez un doute, n'hésitez pas à demander sur le Discord.</p>
+<p>Le début de la procédure dépend du firmware déjà installé sur le clavier. Si vous avez un doute sur le firmware installé, consultez la <a href="installer-firmware.md">page générale des firmwares</a></p>
+<h3>Si votre clavier utilise déjà un firmware QMK</h3>
+<p>Passez le clavier en mode bootloader, avec la combinaison de touches Fn + Echap (Fn + B pour le Dark Mage). Le clavier doit s'éteindre et ne plus être opérationnel.</p>
+<p>Lancez l'outil de flash, et sélectionnez le type de puce &quot;SN32F24x&quot;.
+Dans la liste déroulante, le clavier doit être indiqué. Cliquez sur le bouton &quot;Refresh&quot; si nécessaire.
+Modifiez le paramètre &quot;QMK Offset&quot; pour être à 0x00 s'il ne l'est pas déjà.</p>
+<p>Cliquez sur le bouton &quot;Flash QMK ...&quot;. Un explorateur de fichier s'ouvre, naviguez jusqu'au fichier BIN récupéré précédemment dans les pré-requis, puis sélectionnez-le.</p>
+<p>L'outil de flash va installer le nouveau firmware. Ne touchez absolument pas le clavier tant que la barre de progression n'est pas terminée et que le mot &quot;Finished&quot; apparaît.</p>
+<p>Le clavier redémarre de lui-même après l'installation.</p>
+<h3>Si votre clavier utilise le firmware d'origine &quot;Evision&quot;</h3>
+<p>Lancez l'outil de flash, et sélectionnez le type de puce &quot;SN32F24x&quot;.
+Dans la liste déroulante, le clavier doit être indiqué. Cliquez sur le bouton &quot;Refresh&quot; si nécessaire.
+Modifiez le paramètre &quot;QMK Offset&quot; pour être à 0x00 s'il ne l'est pas déjà.
+Cliquez sur le bouton &quot;Reboot to Bootloader [eVision]&quot;, attendez que la barre de progession se termine. Le clavier doit s'éteindre et ne plus être opérationnel.</p>
+<p>Cliquez sur le bouton &quot;Flash QMK ...&quot;. Un explorateur de fichier s'ouvre, naviguez jusqu'au fichier BIN récupéré précédemment dans les pré-requis, puis sélectionnez-le.</p>
+<p>L'outil de flash va installer le nouveau firmware. Ne touchez absolument pas le clavier tant que la barre de progression n'est pas terminée et que le mot &quot;Finished&quot; apparaît.</p>
+<p>Le clavier redémarre de lui-même après l'installation.</p>
+<h2>Configurer QMK avec VIA</h2>
+<p>TODO</p>
+</article>

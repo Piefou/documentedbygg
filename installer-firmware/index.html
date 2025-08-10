@@ -1,0 +1,40 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/github-markdown.css">
+<style>
+	.markdown-body {
+		box-sizing: border-box;
+		min-width: 200px;
+		max-width: 980px;
+		margin: 0 auto;
+		padding: 45px;
+	}
+<p>@media (max-width: 767px) {
+.markdown-body {
+padding: 15px;
+}
+}
+</style></p>
+<article class="markdown-body">
+    <h1>Installer ou réinstaller le firmware</h1>
+<p>Cette documentation est valide pour les modèles suivants :</p>
+<ul>
+<li>Ironclad V3 (page produit : https://designedby.gg/product/ironclad-v3/)</li>
+<li>Berserker (page produit : https://designedby.gg/product/berserker/)</li>
+<li>Red Blade (page produit : https://designedby.gg/product/red-blade-01/)</li>
+<li>Dark Mage (page produit : https://designedby.gg/product/dark-mage-edition-qmk/)</li>
+</ul>
+<h2>Comment identifier le firmware installé sur mon clavier ?</h2>
+<p>Attention : Ce paragraphe ne concerne pas le clavier Dark Mage, qui ne tourne que sur le firmware QMK.</p>
+<p>Deux firmwares sont disponibles pour les claviers DbGG : le firmware d'origine dit &quot;Evision&quot;, et QMK.</p>
+<p>Plusieurs manipulations sont possibles pour identifier le firmware installé.</p>
+<ul>
+<li>Appuyez simultanément sur les touches Fn et Echap. Si le clavier s'éteint et ne réponds plus, QMK est installé (débranchez et rebranchez le clavier pour le rallumer).</li>
+<li>Débranchez et rebranchez le clavier. Si une animation en spirale de couleur blanche parcourt les touches, alors le firmware Evision est installé.</li>
+<li>Avec un navigatur web (hors Firefox), accédez au site https://usevia.app, et cliquez sur le bouton &quot;Authorize device&quot;. Une popup doit s'ouvrir avec les périphériques pilotables par l'outil. Si votre clavier y est listé, QMK est installé. [[TODO screenshot VIA]]</li>
+<li>Si vous avez déjà installé le pilote du firmware d'origine Evision, il ne fonctionnera qu'avec celui ci. Si un message &quot;Device not detected&quot; y est affiché au lancement de l'application, QMK est le firmware installé. [[TODO screenshot driver]]</li>
+</ul>
+<h2>Installer le firmware d'origine</h2>
+<p>Suivez la procédure indiquée sur la page suivante : TODO</p>
+<h2>Installer le firmware QMK</h2>
+<p>Suivez la procédure indiquée sur la page suivante : <a href="/installer-firmware-qmk">Installer QMK</a></p>
+</article>
